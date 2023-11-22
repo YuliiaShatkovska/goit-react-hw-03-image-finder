@@ -4,7 +4,7 @@ import { ImageGallery } from './ImageGallery/ImageGallery';
 import { Button } from './Button/Button';
 import { Loader } from './Loader/Loader';
 import { Modal } from './Modal/Modal';
-import { getImages } from './helpers/api';
+import { getImages } from '../helpers/api';
 import { Notify } from 'notiflix';
 
 export class App extends Component {
